@@ -1,0 +1,91 @@
+@media screen and (max-width: 760px){
+
+    body {
+    background-image: none;
+    color: white;
+    background-color: black;
+    background-size: 100%;
+
+    } 
+    
+    
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 15px;
+    }
+
+    div {
+        line-height: 45px;
+    }
+
+    header{
+        margin: auto;
+        margin: 8vw;
+        margin-top: 5vw;
+    }
+
+    .bigorna{
+        height: 13vw;
+        margin-top: 10px;
+    }
+    .ferramentas{
+        height: 13vw;
+        margin-top: 10px;
+    }
+
+    input{
+        display: flex;
+        margin: auto;
+        margin: 7%;
+        width: 80vw;
+    }
+
+    a > .componentes {
+        
+        height: 150px;
+    }
+
+    .linkpeças {
+        margin: 10vw;
+    }
+
+    .componentes1 {
+        margin: 2%;
+        margin-top: 10vh;
+    }
+    .componentes2 {
+        margin: 2%;
+        margin-top: 1vh;
+    }
+
+    .componentes:hover {
+        height: 170px;
+        transition: 0.5s;
+        transform: translate(-2px, -2px);
+    }
+
+    footer{
+        margin: auto;
+        
+    }
+
+    .redesimg {
+        margin: auto;
+        margin-left: 28vw;
+        margin-top: 30vw;
+        width: 5vw;
+    }
+
+    .redesimg:hover{
+        width: 5vw;
+        transition: none;
+    }
+
+    .redeslink {
+        padding: 30px;
+    }
+
+}
+
