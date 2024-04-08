@@ -10,7 +10,7 @@
     --fonte1: 'Playfair Display';
 }
 body {
-    background-image: url("../imagens/bg-forge.webp");
+    background-image: url("../imagens/Design\ sem\ nome.png");
     height: 100vh;
     background-size: cover;
     background-attachment: fixed;
@@ -30,7 +30,7 @@ header {
     display: flex;
     flex-direction: row;
     text-align: center;
-    margin-left: 480px;
+    margin-left: 460px;
     
   
 }
@@ -57,7 +57,7 @@ div {
 
 input {
     display: flex;
-    margin-left: 480px;
+    margin-left: 460px;
     margin-top: 10px;
     position: absolute;
     height: 55px;
@@ -81,7 +81,7 @@ input:focus {
     display: flex;
     flex-direction: row;
     margin: auto;
-    margin-left: 430px;
+    margin-left: 350px;
     margin-top: 0px;
 }
 
@@ -89,34 +89,46 @@ input:focus {
     display: flex;
     flex-direction: row;
     margin: auto;
-    margin-left: 430px;
+    margin-left: 350px;
     margin-top: 0px;
 }
 
  a > .componentes{
-    height: 105px;
+    height: 200px;
     position: absolute;
 }
-a {
+.linkpeças {
     margin: 96px;
 }
 
-a >img:hover {
-    height: 125px;
+.componentes:hover {
+    height: 250px;
+    transition: 0.5s;
+    transform: translate(-10px, -10px);
+}
+
+
+.redesimg {
+    width: 50px;
+    margin: 40px;
+    position: absolute;
+
+
+    
+}
+
+.redesimg:hover {
+    width: 80px;
     transition: 0.5s;
 }
 
-.footer {
-    display: flex;
-    flex-direction: row;
-    margin: auto;
-    margin-left: 430px;
-    height: 50px;
-
-}
-.footer:hover {
-    height: 50px;
+footer{
+    display: block;
+    margin-top: 55px;
+    margin-left: 465px;
+    
 }
 
-
-
+.redeslink {
+    padding: 70px;
+}
