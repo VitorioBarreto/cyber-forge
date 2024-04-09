@@ -4,6 +4,8 @@
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
+
+    
 }
 
 :root {
@@ -31,20 +33,22 @@ header {
     display: flex;
     flex-direction: row;
     text-align: center;
-    margin-left: 460px;
+    margin: auto;
+    margin-left: 30%;
     
-  
 }
 div {
-    padding-left: 7px;
+    
     line-height: 60px;
+    
+   
     
     
 }
 
 
 .bigorna {
-    height: 100px;
+    height: 14vh;
     padding-top: 37px;
 }
     
@@ -52,17 +56,19 @@ div {
     
 .ferramentas{
     
-    height: 105px;
+    height: 15vh;
     padding-top: 37px;
 }
 
 input {
     display: flex;
-    margin-left: 460px;
+        margin: auto;
+        margin: 25%;
+        width: 50%;
     margin-top: 10px;
     position: absolute;
     height: 55px;
-    width: 600px;
+    
     background-color: rgba(220, 125, 0, 0);
     border: 0;
     outline: 0;
@@ -82,7 +88,7 @@ input:focus {
     display: flex;
     flex-direction: row;
     margin: auto;
-    margin-left: 350px;
+    margin-left: 23vw;
     margin-top: 0px;
 }
 
@@ -90,12 +96,12 @@ input:focus {
     display: flex;
     flex-direction: row;
     margin: auto;
-    margin-left: 350px;
+    margin-left: 23vw;
     margin-top: 0px;
 }
 
  a > .componentes{
-    height: 200px;
+    height: 30vh;
     position: absolute;
 }
 .linkpeças {
@@ -103,15 +109,16 @@ input:focus {
 }
 
 .componentes:hover {
-    height: 250px;
+    height: 35vh;
     transition: 0.5s;
     transform: translate(-10px, -10px);
 }
 
 
 .redesimg {
-    width: 50px;
-    margin: 40px;
+    width: 40px;
+    margin: auto;
+    margin-left: 34%;
     position: absolute;
 
 
@@ -119,14 +126,15 @@ input:focus {
 }
 
 .redesimg:hover {
-    width: 80px;
+    width: 60px;
     transition: 0.5s;
 }
 
 footer{
     display: block;
-    margin-top: 55px;
-    margin-left: 465px;
+    margin-top: 100px;
+    margin-left: 0;
+    
     
 }
 
