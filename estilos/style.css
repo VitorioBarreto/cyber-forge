@@ -4,10 +4,14 @@
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
-
+    
     
 }
 
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
 :root {
     --fonte1: 'Playfair Display';
 }
@@ -29,22 +33,18 @@ h1 {
     
 }
     
-header {
+.imgcentral {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
     text-align: center;
-    margin: auto;
-    margin-left: 30%;
+    align-items: center;
     
 }
-div {
-    
+.textcentral {
+    margin: 0 20px;
     line-height: 60px;
-    
-   
-    
-    
 }
+
 
 
 .bigorna {
@@ -62,21 +62,20 @@ div {
 
 input {
     display: flex;
-        margin: auto;
-        margin: 25%;
-        width: 50%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
     margin-top: 10px;
-    position: absolute;
     height: 55px;
-    
     background-color: rgba(220, 125, 0, 0);
     border: 0;
     outline: 0;
     border-bottom: 3px solid white;
     color: white;
     font-size: 20px;
-
 }
+
 
 input:focus {
     border-bottom: 2px solid rgb(39, 39, 57);
@@ -86,43 +85,40 @@ input:focus {
 
 .componentes1{
     display: flex;
-    flex-direction: row;
     margin: auto;
-    margin-left: 23vw;
+    align-items: center;
+    justify-content: center;
     margin-top: 0px;
+   
+   
 }
 
 .componentes2{
     display: flex;
-    flex-direction: row;
     margin: auto;
-    margin-left: 23vw;
+    align-items: center;
+    justify-content: center;
     margin-top: 0px;
 }
-
- a > .componentes{
+    
+.componentes{
     height: 30vh;
-    position: absolute;
+    justify-content: center;
+    align-items: center;
+   
 }
-.linkpeças {
-    margin: 96px;
-}
+    
 
 .componentes:hover {
     height: 35vh;
     transition: 0.5s;
-    transform: translate(-10px, -10px);
+    transform: translate(-2px, -2px);
 }
 
 
+
 .redesimg {
-    width: 40px;
-    margin: auto;
-    margin-left: 34%;
-    position: absolute;
-
-
-    
+    width: 40px;  
 }
 
 .redesimg:hover {
@@ -132,12 +128,13 @@ input:focus {
 
 footer{
     display: block;
-    margin-top: 100px;
-    margin-left: 0;
-    
-    
+    margin-top: 1vh;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-align: center;
 }
 
 .redeslink {
-    padding: 70px;
+    padding: 0px 70px;
 }
