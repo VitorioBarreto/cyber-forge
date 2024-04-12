@@ -89,7 +89,7 @@ input:focus {
     align-items: center;
     justify-content: center;
     margin-top: 0px;
-   
+    
    
 }
 
@@ -105,7 +105,7 @@ input:focus {
     height: 30vh;
     justify-content: center;
     align-items: center;
-   
+    display: flex;
 }
     
 
