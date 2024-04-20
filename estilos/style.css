@@ -28,7 +28,7 @@ body {
 
 h1 {
     font-size: 60px;
-    padding-top: 37px;
+    padding-top: 15px;
     font-family: ulisses;
     
 }
@@ -89,12 +89,13 @@ input:focus {
     align-items: center;
     justify-content: center;
     margin-top: 0px;
-    
+   
    
 }
 
 .componentes2{
     display: flex;
+    
     margin: auto;
     align-items: center;
     justify-content: center;
@@ -102,7 +103,7 @@ input:focus {
 }
     
 .componentes{
-    height: 30vh;
+    width: 15vw;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -110,9 +111,9 @@ input:focus {
     
 
 .componentes:hover {
-    height: 35vh;
+
     transition: 0.5s;
-    transform: translate(-2px, -2px);
+    transform: translate(-10px, -10px);
 }
 
 
@@ -122,7 +123,7 @@ input:focus {
 }
 
 .redesimg:hover {
-    width: 60px;
+    transform: translate(-10px, -5px);
     transition: 0.5s;
 }
 

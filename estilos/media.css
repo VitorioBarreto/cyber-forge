@@ -23,12 +23,12 @@
     header{
         margin: auto;
         margin: 8vw;
-        margin-top: 5vw;
+        margin-top: 1vw;
     }
 
     .bigorna{
         height: 13vw;
-        margin-top: 10px;
+        margin-top: 0px;
     }
     .ferramentas{
         height: 13vw;
@@ -38,32 +38,32 @@
     input{
         display: flex;
         margin: auto;
-        margin: 7%;
+        justify-content: center;
+        align-items: center;
         width: 80vw;
     }
 
-    a > .componentes {
-        
-        height: 150px;
+  .componentes {
+        width: 20vw;
+      
     }
 
     .linkpeças {
-        margin: 10vw;
+        margin: 2vw;
     }
 
     .componentes1 {
         margin: 2%;
-        margin-top: 10vh;
+        padding: 0px;
     }
     .componentes2 {
-        margin: 2%;
-        margin-top: 1vh;
+        margin: 1vh;
+       
     }
 
     .componentes:hover {
-        height: 170px;
         transition: 0.5s;
-        transform: translate(-2px, -2px);
+        transform: translate(-3px, -3px);
     }
 
     footer{
